@@ -25,7 +25,7 @@ app.use(bodyParser.json());
 //midleware for setting routes
 const postRoute = require('./routes/post');
 
-app.use('/post', postRoute);
+app.use('/', postRoute);
 
 
 //listen on a port
