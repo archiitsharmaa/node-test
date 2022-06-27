@@ -29,5 +29,8 @@ app.use('/post', postRoute);
 
 
 //listen on a port
-app.listen(3000);
-console.log("started server")
+const port = process.env.port || 3000;
+app.listen(port, () => {
+  console.log("started server");
+});
+
