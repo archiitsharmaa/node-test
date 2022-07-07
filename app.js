@@ -7,7 +7,7 @@ const cors = require('cors')
 
 const app = express();
 
-//cors issue
+//cors issue uu
 app.use(cors())
 
 //middleware for parsing json data and should be above
