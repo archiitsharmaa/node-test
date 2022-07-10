@@ -11,7 +11,7 @@ const app = express();
 app.use(cors())
 
 //middleware for parsing json data and should be above
-//rest of middleware
+//rest of middleware 8890
 app.use(bodyParser.json());
 
 
