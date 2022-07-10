@@ -15,6 +15,8 @@ app.use(cors())
 app.use(bodyParser.json());
 
 
+//this also new freind
+
 //new comment
 
 //middlewares -> always executes when calling a fucntion
