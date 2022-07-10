@@ -15,7 +15,8 @@ app.use(cors())
 app.use(bodyParser.json());
 
 
-//new comment
+
+//hemllllll
 
 //middlewares -> always executes when calling a fucntion
 //basically a middle man while calling routes
